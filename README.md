@@ -1,6 +1,7 @@
-This project is the result of React Video Series provided by Andy Van Slaars. Videos from 1-24 episodes. For detail explanation, visit https://egghead.io/courses/build-your-first-production-quality-react-app by Andy Van Slaars. 
 
-Complete React Todo project (CRUD using json server)
+## Complete React Todo project (CRUD using json server)
+
+This project is the result of React Video Series provided by Andy Van Slaars. Videos from 1-24 episodes. For detail explanation, visit https://egghead.io/courses/build-your-first-production-quality-react-app by Andy Van Slaars. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
