@@ -1,3 +1,7 @@
+This project is the result of React Video Series provided by Andy Van Slaars. Videos from 1-24 episodes. For detail explanation, visit https://egghead.io/courses/build-your-first-production-quality-react-app by Andy Van Slaars. 
+
+Complete React Todo project (CRUD using json server)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -36,6 +40,14 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Load Data for React from a Server with fetch (using the json-server node module)
+With some data in place at db.json, open the terminal and start the server using json-server. Specify what port this is going to run on, for example use 8080. 
+To reload the changes made in db.json , pass it the --watch flag.
+
+### `json-server -p 8080 --watch db.json`
+
+In order to verify that it works, open new tab and run localhost:8080/todos, and we'll see the array of todo objects.
 
 ## Learn More
 

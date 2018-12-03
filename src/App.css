@@ -30,3 +30,61 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-app {
+  padding-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  font-size:  20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color:red;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+input[type=checkbox]:checked + label {
+  color: #7c7878;
+  font-style: italic;
+} 
+
+.error {
+  color:red;
+  padding-bottom: 10px;
+  display: block;
+  font-size: 12px;
+}
+
+.footer a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.footer a.active {
+  font-weight: bold;
+}
+
+.success {
+  color:green;
+  padding: 10px 0;
+  display: block;
+}
